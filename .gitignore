@@ -1,4 +1,17 @@
-venv/
-__pycache__/
-*.pyc
+# PyCharm / IntelliJ
 .idea/
+*.iml
+cmake-build-*/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
